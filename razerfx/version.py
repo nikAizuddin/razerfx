@@ -1,0 +1,2 @@
+# THIS FILE IS GENERATED FROM RAZERFX
+version = 'v0.1.0'
