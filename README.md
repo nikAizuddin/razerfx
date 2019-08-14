@@ -1,6 +1,6 @@
 # RazerFX
 
-`RazerFX` is a command-line interface (CLI) based tool that allow user to set RGB color for each key. This project is written using Python 3.x. Currently only works on Razer BlackWidow 2019 (en_US) keyboard.
+`RazerFX` is a command-line interface (CLI) based tool that allow user to set RGB color for each key. This project is written in Python 3.x. Currently only works on Razer BlackWidow 2019 (en_US) keyboard.
 
 ![bright color palette](resources/example.jpg)
 *`RazerFX` tested on Razer BlackWidow 2019 (en_US) keyboard*
