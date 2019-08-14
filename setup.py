@@ -8,8 +8,10 @@ def get_version():
         version = f.read().strip()
     return version
 
-with open('requirements.txt') as f:
-    requirements = f.read().splitlines()
+def get_requirements():
+    with open('requirements.txt') as f:
+        requirements = f.read().splitlines()
+    return requirements
 
 def setup_package():
     setup(
@@ -22,9 +24,9 @@ def setup_package():
         maintainer_email='nik-mohamad-aizuddin@yandex.com',
         url='https://github.com/nikAizuddin/razerfx.git',
         packages=find_packages(),
-        install_requires=requirements,
+        install_requires=get_requirements(),
         entry_points={
-            'console_scripts': ['razerfx=main:main'],
+            'console_scripts': ['razerfx=razerfx.app:main'],
         },
     )
 
